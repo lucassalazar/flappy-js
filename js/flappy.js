@@ -94,13 +94,15 @@ function Bird(gameHeight) {
     let flying = false;
 
     this.element = createNewElement('img', 'bird');
-    this.element.src = 'imgs/passaro.png';
+    this.element.src = 'imgs/leo.webp';
 
     this.getPositionY = () => parseInt(this.element.style.bottom.split('px')[0]);
     this.setPositionY = yPosition => this.element.style.bottom = `${yPosition}px`;
     
     window.onkeydown = e => flying = true;
     window.onkeyup = e => flying = false;
+    window.onmousedown = e => flying = true;
+    window.onmouseup = e => flying = false;
 
     this.animate = () => {
         const newY = this.getPositionY() + (flying ? 8 : -5);
