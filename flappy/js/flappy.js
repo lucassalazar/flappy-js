@@ -101,8 +101,8 @@ function Bird(gameHeight) {
     
     window.onkeydown = e => flying = true;
     window.onkeyup = e => flying = false;
-    window.onmousedown = e => flying = true;
-    window.onmouseup = e => flying = false;
+    window.ontouchstart = e => flying = true;
+    window.ontouchend = e => flying = false;
 
     this.animate = () => {
         const newY = this.getPositionY() + (flying ? 8 : -5);
