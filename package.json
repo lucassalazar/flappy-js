@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  	"deploy": "gh-pages -d flappy"  
+    "deploy": "gh-pages -d flappy"
   },
   "repository": {
     "type": "git",
