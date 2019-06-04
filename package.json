@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucassalazar/flappy-bird-js.git"
+    "url": "git+https://github.com/lucassalazar/flappy-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucassalazar/flappy-bird-js/issues"
+    "url": "https://github.com/lucassalazar/flappy-js/issues"
   },
-  "homepage": "https://github.com/lucassalazar/flappy-bird-js",
+  "homepage": "https://github.com/lucassalazar/flappy-js",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
