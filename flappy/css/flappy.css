@@ -66,6 +66,6 @@
 
 @media(max-width: 700px) {
     .score {
-        right: calc(50% - 30px);
+        right: 50%;
     }
 }
