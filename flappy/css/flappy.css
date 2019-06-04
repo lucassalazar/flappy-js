@@ -22,6 +22,7 @@
     width: 60px;
     left: calc(50% - 30px); /* Alinhando o bird no centro da tela */
     /* bottom: 50%; */
+    z-index: 101;
 }
 
 .couple-of-barriers {
@@ -66,6 +67,6 @@
 
 @media(max-width: 700px) {
     .score {
-        right: 32%;
+        right: 50%;
     }
 }
