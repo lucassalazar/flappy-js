@@ -197,6 +197,7 @@ function FlappyBird() {
             bird.animate();
 
             if(birdCollision(bird, barriers)) {
+                bird.element.src = 'imgs/deadleo.webp'
                 clearInterval(timer);
             }
         }, 20);
