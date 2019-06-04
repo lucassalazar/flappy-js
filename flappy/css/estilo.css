@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+* {
+    font-family: 'Pixel', sans-serif;
+    font-size: 1.6em;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+

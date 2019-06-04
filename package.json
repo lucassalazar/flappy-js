@@ -1,0 +1,23 @@
+{
+  "name": "flappyBird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"deploy": "gh-pages -d flappy"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassalazar/flappy-bird-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassalazar/flappy-bird-js/issues"
+  },
+  "homepage": "https://github.com/lucassalazar/flappy-bird-js",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
