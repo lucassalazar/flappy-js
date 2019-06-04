@@ -63,3 +63,9 @@
     font-size: 60px;
     z-index: 100; /* Faz com que este elemento se sobreponha aos outros elementos */
 }
+
+@media(max-width: 700px) {
+    .score {
+        right: calc(50% - 30px);
+    }
+}
