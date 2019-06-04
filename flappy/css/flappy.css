@@ -60,12 +60,12 @@
     right: 10px;
     color: #fff;
     font-family: 'Pixel';
-    font-size: 60px;
+    font-size: 1.3em;
     z-index: 100; /* Faz com que este elemento se sobreponha aos outros elementos */
 }
 
 @media(max-width: 700px) {
     .score {
-        right: 26%;
+        right: 32%;
     }
 }
