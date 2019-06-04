@@ -105,7 +105,7 @@ function Bird(gameHeight) {
     window.ontouchend = e => flying = false;
 
     this.animate = () => {
-        const newY = this.getPositionY() + (flying ? 8 : -5);
+        const newY = this.getPositionY() + (flying ? 6 : -5);
         // A altura máxima do voo do pássaro é a altura do jogo menos a altura do próprio pássaro.
         const maxHeight = gameHeight - 10 - this.element.clientHeight;
 
